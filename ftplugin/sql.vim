@@ -1,337 +1,346 @@
-iabbrev <buffer> absolute ABSOLUTE
-iabbrev <buffer> action ACTION
-iabbrev <buffer> add ADD
-iabbrev <buffer> after AFTER
-iabbrev <buffer> all ALL
-iabbrev <buffer> allocate ALLOCATE
-iabbrev <buffer> alter ALTER
-iabbrev <buffer> and AND
-iabbrev <buffer> any ANY
-iabbrev <buffer> are ARE
-iabbrev <buffer> array ARRAY
-iabbrev <buffer> as AS
-iabbrev <buffer> asc ASC
-iabbrev <buffer> asensitive ASENSITIVE
-iabbrev <buffer> assertion ASSERTION
-iabbrev <buffer> asymmetric ASYMMETRIC
-iabbrev <buffer> at AT
-iabbrev <buffer> atomic ATOMIC
-iabbrev <buffer> authorization AUTHORIZATION
-iabbrev <buffer> avg AVG
-iabbrev <buffer> before BEFORE
-iabbrev <buffer> begin BEGIN
-iabbrev <buffer> between BETWEEN
-iabbrev <buffer> bigint BIGINT
-iabbrev <buffer> binary BINARY
-iabbrev <buffer> bit BIT
-iabbrev <buffer> bit_length BIT_LENGTH
-iabbrev <buffer> blob BLOB
-iabbrev <buffer> boolean BOOLEAN
-iabbrev <buffer> both BOTH
-iabbrev <buffer> breadth BREADTH
-iabbrev <buffer> by BY
-iabbrev <buffer> call CALL
-iabbrev <buffer> called CALLED
-iabbrev <buffer> cascade CASCADE
-iabbrev <buffer> cascaded CASCADED
-iabbrev <buffer> case CASE
-iabbrev <buffer> cast CAST
-iabbrev <buffer> catalog CATALOG
-iabbrev <buffer> char CHAR
-iabbrev <buffer> character CHARACTER
-iabbrev <buffer> character_length CHARACTER_LENGTH
-iabbrev <buffer> char_length CHAR_LENGTH
-iabbrev <buffer> check CHECK
-iabbrev <buffer> clob CLOB
-iabbrev <buffer> close CLOSE
-iabbrev <buffer> coalesce COALESCE
-iabbrev <buffer> collate COLLATE
-iabbrev <buffer> collation COLLATION
-iabbrev <buffer> column COLUMN
-iabbrev <buffer> commit COMMIT
-iabbrev <buffer> condition CONDITION
-iabbrev <buffer> connect CONNECT
-iabbrev <buffer> connection CONNECTION
-iabbrev <buffer> constraint CONSTRAINT
-iabbrev <buffer> constraints CONSTRAINTS
-iabbrev <buffer> constructor CONSTRUCTOR
-iabbrev <buffer> contains CONTAINS
-iabbrev <buffer> continue CONTINUE
-iabbrev <buffer> convert CONVERT
-iabbrev <buffer> corresponding CORRESPONDING
-iabbrev <buffer> count COUNT
-iabbrev <buffer> create CREATE
-iabbrev <buffer> cross CROSS
-iabbrev <buffer> cube CUBE
-iabbrev <buffer> current CURRENT
-iabbrev <buffer> current_date CURRENT_DATE
-iabbrev <buffer> current_default_transform_group CURRENT_DEFAULT_TRANSFORM_GROUP
-iabbrev <buffer> current_path CURRENT_PATH
-iabbrev <buffer> current_role CURRENT_ROLE
-iabbrev <buffer> current_time CURRENT_TIME
-iabbrev <buffer> current_timestamp CURRENT_TIMESTAMP
-iabbrev <buffer> current_transform_group_for_type CURRENT_TRANSFORM_GROUP_FOR_TYPE
-iabbrev <buffer> current_user CURRENT_USER
-iabbrev <buffer> cursor CURSOR
-iabbrev <buffer> cycle CYCLE
-iabbrev <buffer> data DATA
-iabbrev <buffer> date DATE
-iabbrev <buffer> day DAY
-iabbrev <buffer> deallocate DEALLOCATE
-iabbrev <buffer> dec DEC
-iabbrev <buffer> decimal DECIMAL
-iabbrev <buffer> declare DECLARE
-iabbrev <buffer> default DEFAULT
-iabbrev <buffer> deferrable DEFERRABLE
-iabbrev <buffer> deferred DEFERRED
-iabbrev <buffer> delete DELETE
-iabbrev <buffer> depth DEPTH
-iabbrev <buffer> deref DEREF
-iabbrev <buffer> desc DESC
-iabbrev <buffer> describe DESCRIBE
-iabbrev <buffer> descriptor DESCRIPTOR
-iabbrev <buffer> deterministic DETERMINISTIC
-iabbrev <buffer> diagnostics DIAGNOSTICS
-iabbrev <buffer> disconnect DISCONNECT
-iabbrev <buffer> distinct DISTINCT
-iabbrev <buffer> do DO
-iabbrev <buffer> domain DOMAIN
-iabbrev <buffer> double DOUBLE
-iabbrev <buffer> drop DROP
-iabbrev <buffer> dynamic DYNAMIC
-iabbrev <buffer> each EACH
-iabbrev <buffer> element ELEMENT
-iabbrev <buffer> else ELSE
-iabbrev <buffer> elseif ELSEIF
-iabbrev <buffer> end END
-iabbrev <buffer> equals EQUALS
-iabbrev <buffer> escape ESCAPE
-iabbrev <buffer> except EXCEPT
-iabbrev <buffer> exception EXCEPTION
-iabbrev <buffer> exec EXEC
-iabbrev <buffer> execute EXECUTE
-iabbrev <buffer> exists EXISTS
-iabbrev <buffer> exit EXIT
-iabbrev <buffer> external EXTERNAL
-iabbrev <buffer> extract EXTRACT
-iabbrev <buffer> false FALSE
-iabbrev <buffer> fetch FETCH
-iabbrev <buffer> filter FILTER
-iabbrev <buffer> first FIRST
-iabbrev <buffer> float FLOAT
-iabbrev <buffer> for FOR
-iabbrev <buffer> foreign FOREIGN
-iabbrev <buffer> found FOUND
-iabbrev <buffer> free FREE
-iabbrev <buffer> from FROM
-iabbrev <buffer> full FULL
-iabbrev <buffer> function FUNCTION
-iabbrev <buffer> general GENERAL
-iabbrev <buffer> get GET
-iabbrev <buffer> global GLOBAL
-iabbrev <buffer> go GO
-iabbrev <buffer> goto GOTO
-iabbrev <buffer> grant GRANT
-iabbrev <buffer> group GROUP
-iabbrev <buffer> grouping GROUPING
-iabbrev <buffer> handler HANDLER
-iabbrev <buffer> having HAVING
-iabbrev <buffer> hold HOLD
-iabbrev <buffer> hour HOUR
-iabbrev <buffer> identity IDENTITY
-iabbrev <buffer> if IF
-iabbrev <buffer> immediate IMMEDIATE
-iabbrev <buffer> in IN
-iabbrev <buffer> indicator INDICATOR
-iabbrev <buffer> initially INITIALLY
-iabbrev <buffer> inner INNER
-iabbrev <buffer> inout INOUT
-iabbrev <buffer> input INPUT
-iabbrev <buffer> insensitive INSENSITIVE
-iabbrev <buffer> insert INSERT
-iabbrev <buffer> int INT
-iabbrev <buffer> integer INTEGER
-iabbrev <buffer> intersect INTERSECT
-iabbrev <buffer> interval INTERVAL
-iabbrev <buffer> into INTO
-iabbrev <buffer> is IS
-iabbrev <buffer> isolation ISOLATION
-iabbrev <buffer> iterate ITERATE
-iabbrev <buffer> join JOIN
-iabbrev <buffer> key KEY
-iabbrev <buffer> language LANGUAGE
-iabbrev <buffer> large LARGE
-iabbrev <buffer> last LAST
-iabbrev <buffer> lateral LATERAL
-iabbrev <buffer> leading LEADING
-iabbrev <buffer> leave LEAVE
-iabbrev <buffer> left LEFT
-iabbrev <buffer> level LEVEL
-iabbrev <buffer> like LIKE
-iabbrev <buffer> local LOCAL
-iabbrev <buffer> localtime LOCALTIME
-iabbrev <buffer> localtimestamp LOCALTIMESTAMP
-iabbrev <buffer> locator LOCATOR
-iabbrev <buffer> loop LOOP
-iabbrev <buffer> lower LOWER
-iabbrev <buffer> map MAP
-iabbrev <buffer> match MATCH
-iabbrev <buffer> max MAX
-iabbrev <buffer> member MEMBER
-iabbrev <buffer> merge MERGE
-iabbrev <buffer> method METHOD
-iabbrev <buffer> min MIN
-iabbrev <buffer> minute MINUTE
-iabbrev <buffer> modifies MODIFIES
-iabbrev <buffer> module MODULE
-iabbrev <buffer> month MONTH
-iabbrev <buffer> multiset MULTISET
-iabbrev <buffer> names NAMES
-iabbrev <buffer> national NATIONAL
-iabbrev <buffer> natural NATURAL
-iabbrev <buffer> nchar NCHAR
-iabbrev <buffer> nclob NCLOB
-iabbrev <buffer> new NEW
-iabbrev <buffer> next NEXT
-iabbrev <buffer> no NO
-iabbrev <buffer> none NONE
-iabbrev <buffer> not NOT
-iabbrev <buffer> null NULL
-iabbrev <buffer> nullif NULLIF
-iabbrev <buffer> numeric NUMERIC
-iabbrev <buffer> object OBJECT
-iabbrev <buffer> octet_length OCTET_LENGTH
-iabbrev <buffer> of OF
-iabbrev <buffer> old OLD
-iabbrev <buffer> on ON
-iabbrev <buffer> only ONLY
-iabbrev <buffer> open OPEN
-iabbrev <buffer> option OPTION
-iabbrev <buffer> or OR
-iabbrev <buffer> order ORDER
-iabbrev <buffer> ordinality ORDINALITY
-iabbrev <buffer> out OUT
-iabbrev <buffer> outer OUTER
-iabbrev <buffer> output OUTPUT
-iabbrev <buffer> over OVER
-iabbrev <buffer> overlaps OVERLAPS
-iabbrev <buffer> pad PAD
-iabbrev <buffer> parameter PARAMETER
-iabbrev <buffer> partial PARTIAL
-iabbrev <buffer> partition PARTITION
-iabbrev <buffer> path PATH
-iabbrev <buffer> position POSITION
-iabbrev <buffer> precision PRECISION
-iabbrev <buffer> prepare PREPARE
-iabbrev <buffer> preserve PRESERVE
-iabbrev <buffer> primary PRIMARY
-iabbrev <buffer> prior PRIOR
-iabbrev <buffer> privileges PRIVILEGES
-iabbrev <buffer> procedure PROCEDURE
-iabbrev <buffer> public PUBLIC
-iabbrev <buffer> range RANGE
-iabbrev <buffer> read READ
-iabbrev <buffer> reads READS
-iabbrev <buffer> real REAL
-iabbrev <buffer> recursive RECURSIVE
-iabbrev <buffer> ref REF
-iabbrev <buffer> references REFERENCES
-iabbrev <buffer> referencing REFERENCING
-iabbrev <buffer> relative RELATIVE
-iabbrev <buffer> release RELEASE
-iabbrev <buffer> repeat REPEAT
-iabbrev <buffer> resignal RESIGNAL
-iabbrev <buffer> restrict RESTRICT
-iabbrev <buffer> result RESULT
-iabbrev <buffer> return RETURN
-iabbrev <buffer> returns RETURNS
-iabbrev <buffer> revoke REVOKE
-iabbrev <buffer> right RIGHT
-iabbrev <buffer> role ROLE
-iabbrev <buffer> rollback ROLLBACK
-iabbrev <buffer> rollup ROLLUP
-iabbrev <buffer> routine ROUTINE
-iabbrev <buffer> row ROW
-iabbrev <buffer> rows ROWS
-iabbrev <buffer> savepoint SAVEPOINT
-iabbrev <buffer> schema SCHEMA
-iabbrev <buffer> scope SCOPE
-iabbrev <buffer> scroll SCROLL
-iabbrev <buffer> search SEARCH
-iabbrev <buffer> second SECOND
-iabbrev <buffer> section SECTION
-iabbrev <buffer> select SELECT
-iabbrev <buffer> sensitive SENSITIVE
-iabbrev <buffer> session SESSION
-iabbrev <buffer> session_user SESSION_USER
-iabbrev <buffer> set SET
-iabbrev <buffer> sets SETS
-iabbrev <buffer> signal SIGNAL
-iabbrev <buffer> similar SIMILAR
-iabbrev <buffer> size SIZE
-iabbrev <buffer> smallint SMALLINT
-iabbrev <buffer> some SOME
-iabbrev <buffer> space SPACE
-iabbrev <buffer> specific SPECIFIC
-iabbrev <buffer> specifictype SPECIFICTYPE
-iabbrev <buffer> sql SQL
-iabbrev <buffer> sqlcode SQLCODE
-iabbrev <buffer> sqlerror SQLERROR
-iabbrev <buffer> sqlexception SQLEXCEPTION
-iabbrev <buffer> sqlstate SQLSTATE
-iabbrev <buffer> sqlwarning SQLWARNING
-iabbrev <buffer> start START
-iabbrev <buffer> state STATE
-iabbrev <buffer> static STATIC
-iabbrev <buffer> submultiset SUBMULTISET
-iabbrev <buffer> substring SUBSTRING
-iabbrev <buffer> sum SUM
-iabbrev <buffer> symmetric SYMMETRIC
-iabbrev <buffer> system SYSTEM
-iabbrev <buffer> system_user SYSTEM_USER
-iabbrev <buffer> table TABLE
-iabbrev <buffer> tablesample TABLESAMPLE
-iabbrev <buffer> temporary TEMPORARY
-iabbrev <buffer> then THEN
-iabbrev <buffer> time TIME
-iabbrev <buffer> timestamp TIMESTAMP
-iabbrev <buffer> timezone_hour TIMEZONE_HOUR
-iabbrev <buffer> timezone_minute TIMEZONE_MINUTE
-iabbrev <buffer> to TO
-iabbrev <buffer> trailing TRAILING
-iabbrev <buffer> transaction TRANSACTION
-iabbrev <buffer> translate TRANSLATE
-iabbrev <buffer> translation TRANSLATION
-iabbrev <buffer> treat TREAT
-iabbrev <buffer> trigger TRIGGER
-iabbrev <buffer> trim TRIM
-iabbrev <buffer> true TRUE
-iabbrev <buffer> under UNDER
-iabbrev <buffer> undo UNDO
-iabbrev <buffer> union UNION
-iabbrev <buffer> unique UNIQUE
-iabbrev <buffer> unknown UNKNOWN
-iabbrev <buffer> unnest UNNEST
-iabbrev <buffer> until UNTIL
-iabbrev <buffer> update UPDATE
-iabbrev <buffer> upper UPPER
-iabbrev <buffer> usage USAGE
-iabbrev <buffer> user USER
-iabbrev <buffer> using USING
-iabbrev <buffer> value VALUE
-iabbrev <buffer> values VALUES
-iabbrev <buffer> varchar VARCHAR
-iabbrev <buffer> varying VARYING
-iabbrev <buffer> view VIEW
-iabbrev <buffer> when WHEN
-iabbrev <buffer> whenever WHENEVER
-iabbrev <buffer> where WHERE
-iabbrev <buffer> while WHILE
-iabbrev <buffer> window WINDOW
-iabbrev <buffer> with WITH
-iabbrev <buffer> within WITHIN
-iabbrev <buffer> without WITHOUT
-iabbrev <buffer> work WORK
-iabbrev <buffer> write WRITE
-iabbrev <buffer> year YEAR
-iabbrev <buffer> zone ZONE
+function! UppercaseKeyword(sql)
+    " Do not uppercase word if within a comment or string
+    if synIDattr(synIDtrans(synID(line("."), col(".") - 1, 0)), "name") =~ 'Comment\|String'
+        return a:sql
+    else
+        return toupper(a:sql)
+    endif
+endfunction
+
+iabbrev <expr> <buffer> absolute UppercaseKeyword('absolute')
+iabbrev <expr> <buffer> action UppercaseKeyword('action')
+iabbrev <expr> <buffer> add UppercaseKeyword('add')
+iabbrev <expr> <buffer> after UppercaseKeyword('after')
+iabbrev <expr> <buffer> all UppercaseKeyword('all')
+iabbrev <expr> <buffer> allocate UppercaseKeyword('allocate')
+iabbrev <expr> <buffer> alter UppercaseKeyword('alter')
+iabbrev <expr> <buffer> and UppercaseKeyword('and')
+iabbrev <expr> <buffer> any UppercaseKeyword('any')
+iabbrev <expr> <buffer> are UppercaseKeyword('are')
+iabbrev <expr> <buffer> array UppercaseKeyword('array')
+iabbrev <expr> <buffer> as UppercaseKeyword('as')
+iabbrev <expr> <buffer> asc UppercaseKeyword('asc')
+iabbrev <expr> <buffer> asensitive UppercaseKeyword('asensitive')
+iabbrev <expr> <buffer> assertion UppercaseKeyword('assertion')
+iabbrev <expr> <buffer> asymmetric UppercaseKeyword('asymmetric')
+iabbrev <expr> <buffer> at UppercaseKeyword('at')
+iabbrev <expr> <buffer> atomic UppercaseKeyword('atomic')
+iabbrev <expr> <buffer> authorization UppercaseKeyword('authorization')
+iabbrev <expr> <buffer> avg UppercaseKeyword('avg')
+iabbrev <expr> <buffer> before UppercaseKeyword('before')
+iabbrev <expr> <buffer> begin UppercaseKeyword('begin')
+iabbrev <expr> <buffer> between UppercaseKeyword('between')
+iabbrev <expr> <buffer> bigint UppercaseKeyword('bigint')
+iabbrev <expr> <buffer> binary UppercaseKeyword('binary')
+iabbrev <expr> <buffer> bit UppercaseKeyword('bit')
+iabbrev <expr> <buffer> bit_length UppercaseKeyword('bit_length')
+iabbrev <expr> <buffer> blob UppercaseKeyword('blob')
+iabbrev <expr> <buffer> boolean UppercaseKeyword('boolean')
+iabbrev <expr> <buffer> both UppercaseKeyword('both')
+iabbrev <expr> <buffer> breadth UppercaseKeyword('breadth')
+iabbrev <expr> <buffer> by UppercaseKeyword('by')
+iabbrev <expr> <buffer> call UppercaseKeyword('call')
+iabbrev <expr> <buffer> called UppercaseKeyword('called')
+iabbrev <expr> <buffer> cascade UppercaseKeyword('cascade')
+iabbrev <expr> <buffer> cascaded UppercaseKeyword('cascaded')
+iabbrev <expr> <buffer> case UppercaseKeyword('case')
+iabbrev <expr> <buffer> cast UppercaseKeyword('cast')
+iabbrev <expr> <buffer> catalog UppercaseKeyword('catalog')
+iabbrev <expr> <buffer> char UppercaseKeyword('char')
+iabbrev <expr> <buffer> character UppercaseKeyword('character')
+iabbrev <expr> <buffer> character_length UppercaseKeyword('character_length')
+iabbrev <expr> <buffer> char_length UppercaseKeyword('char_length')
+iabbrev <expr> <buffer> check UppercaseKeyword('check')
+iabbrev <expr> <buffer> clob UppercaseKeyword('clob')
+iabbrev <expr> <buffer> close UppercaseKeyword('close')
+iabbrev <expr> <buffer> coalesce UppercaseKeyword('coalesce')
+iabbrev <expr> <buffer> collate UppercaseKeyword('collate')
+iabbrev <expr> <buffer> collation UppercaseKeyword('collation')
+iabbrev <expr> <buffer> column UppercaseKeyword('column')
+iabbrev <expr> <buffer> commit UppercaseKeyword('commit')
+iabbrev <expr> <buffer> condition UppercaseKeyword('condition')
+iabbrev <expr> <buffer> connect UppercaseKeyword('connect')
+iabbrev <expr> <buffer> connection UppercaseKeyword('connection')
+iabbrev <expr> <buffer> constraint UppercaseKeyword('constraint')
+iabbrev <expr> <buffer> constraints UppercaseKeyword('constraints')
+iabbrev <expr> <buffer> constructor UppercaseKeyword('constructor')
+iabbrev <expr> <buffer> contains UppercaseKeyword('contains')
+iabbrev <expr> <buffer> continue UppercaseKeyword('continue')
+iabbrev <expr> <buffer> convert UppercaseKeyword('convert')
+iabbrev <expr> <buffer> corresponding UppercaseKeyword('corresponding')
+iabbrev <expr> <buffer> count UppercaseKeyword('count')
+iabbrev <expr> <buffer> create UppercaseKeyword('create')
+iabbrev <expr> <buffer> cross UppercaseKeyword('cross')
+iabbrev <expr> <buffer> cube UppercaseKeyword('cube')
+iabbrev <expr> <buffer> current UppercaseKeyword('current')
+iabbrev <expr> <buffer> current_date UppercaseKeyword('current_date')
+iabbrev <expr> <buffer> current_default_transform_group UppercaseKeyword('current_default_transform_group')
+iabbrev <expr> <buffer> current_path UppercaseKeyword('current_path')
+iabbrev <expr> <buffer> current_role UppercaseKeyword('current_role')
+iabbrev <expr> <buffer> current_time UppercaseKeyword('current_time')
+iabbrev <expr> <buffer> current_timestamp UppercaseKeyword('current_timestamp')
+iabbrev <expr> <buffer> current_transform_group_for_type UppercaseKeyword('current_transform_group_for_type')
+iabbrev <expr> <buffer> current_user UppercaseKeyword('current_user')
+iabbrev <expr> <buffer> cursor UppercaseKeyword('cursor')
+iabbrev <expr> <buffer> cycle UppercaseKeyword('cycle')
+iabbrev <expr> <buffer> data UppercaseKeyword('data')
+iabbrev <expr> <buffer> date UppercaseKeyword('date')
+iabbrev <expr> <buffer> day UppercaseKeyword('day')
+iabbrev <expr> <buffer> deallocate UppercaseKeyword('deallocate')
+iabbrev <expr> <buffer> dec UppercaseKeyword('dec')
+iabbrev <expr> <buffer> decimal UppercaseKeyword('decimal')
+iabbrev <expr> <buffer> declare UppercaseKeyword('declare')
+iabbrev <expr> <buffer> default UppercaseKeyword('default')
+iabbrev <expr> <buffer> deferrable UppercaseKeyword('deferrable')
+iabbrev <expr> <buffer> deferred UppercaseKeyword('deferred')
+iabbrev <expr> <buffer> delete UppercaseKeyword('delete')
+iabbrev <expr> <buffer> depth UppercaseKeyword('depth')
+iabbrev <expr> <buffer> deref UppercaseKeyword('deref')
+iabbrev <expr> <buffer> desc UppercaseKeyword('desc')
+iabbrev <expr> <buffer> describe UppercaseKeyword('describe')
+iabbrev <expr> <buffer> descriptor UppercaseKeyword('descriptor')
+iabbrev <expr> <buffer> deterministic UppercaseKeyword('deterministic')
+iabbrev <expr> <buffer> diagnostics UppercaseKeyword('diagnostics')
+iabbrev <expr> <buffer> disconnect UppercaseKeyword('disconnect')
+iabbrev <expr> <buffer> distinct UppercaseKeyword('distinct')
+iabbrev <expr> <buffer> do UppercaseKeyword('do')
+iabbrev <expr> <buffer> domain UppercaseKeyword('domain')
+iabbrev <expr> <buffer> double UppercaseKeyword('double')
+iabbrev <expr> <buffer> drop UppercaseKeyword('drop')
+iabbrev <expr> <buffer> dynamic UppercaseKeyword('dynamic')
+iabbrev <expr> <buffer> each UppercaseKeyword('each')
+iabbrev <expr> <buffer> element UppercaseKeyword('element')
+iabbrev <expr> <buffer> else UppercaseKeyword('else')
+iabbrev <expr> <buffer> elseif UppercaseKeyword('elseif')
+iabbrev <expr> <buffer> end UppercaseKeyword('end')
+iabbrev <expr> <buffer> equals UppercaseKeyword('equals')
+iabbrev <expr> <buffer> escape UppercaseKeyword('escape')
+iabbrev <expr> <buffer> except UppercaseKeyword('except')
+iabbrev <expr> <buffer> exception UppercaseKeyword('exception')
+iabbrev <expr> <buffer> exec UppercaseKeyword('exec')
+iabbrev <expr> <buffer> execute UppercaseKeyword('execute')
+iabbrev <expr> <buffer> exists UppercaseKeyword('exists')
+iabbrev <expr> <buffer> exit UppercaseKeyword('exit')
+iabbrev <expr> <buffer> external UppercaseKeyword('external')
+iabbrev <expr> <buffer> extract UppercaseKeyword('extract')
+iabbrev <expr> <buffer> false UppercaseKeyword('false')
+iabbrev <expr> <buffer> fetch UppercaseKeyword('fetch')
+iabbrev <expr> <buffer> filter UppercaseKeyword('filter')
+iabbrev <expr> <buffer> first UppercaseKeyword('first')
+iabbrev <expr> <buffer> float UppercaseKeyword('float')
+iabbrev <expr> <buffer> for UppercaseKeyword('for')
+iabbrev <expr> <buffer> foreign UppercaseKeyword('foreign')
+iabbrev <expr> <buffer> found UppercaseKeyword('found')
+iabbrev <expr> <buffer> free UppercaseKeyword('free')
+iabbrev <expr> <buffer> from UppercaseKeyword('from')
+iabbrev <expr> <buffer> full UppercaseKeyword('full')
+iabbrev <expr> <buffer> function UppercaseKeyword('function')
+iabbrev <expr> <buffer> general UppercaseKeyword('general')
+iabbrev <expr> <buffer> get UppercaseKeyword('get')
+iabbrev <expr> <buffer> global UppercaseKeyword('global')
+iabbrev <expr> <buffer> go UppercaseKeyword('go')
+iabbrev <expr> <buffer> goto UppercaseKeyword('goto')
+iabbrev <expr> <buffer> grant UppercaseKeyword('grant')
+iabbrev <expr> <buffer> group UppercaseKeyword('group')
+iabbrev <expr> <buffer> grouping UppercaseKeyword('grouping')
+iabbrev <expr> <buffer> handler UppercaseKeyword('handler')
+iabbrev <expr> <buffer> having UppercaseKeyword('having')
+iabbrev <expr> <buffer> hold UppercaseKeyword('hold')
+iabbrev <expr> <buffer> hour UppercaseKeyword('hour')
+iabbrev <expr> <buffer> identity UppercaseKeyword('identity')
+iabbrev <expr> <buffer> if UppercaseKeyword('if')
+iabbrev <expr> <buffer> immediate UppercaseKeyword('immediate')
+iabbrev <expr> <buffer> in UppercaseKeyword('in')
+iabbrev <expr> <buffer> indicator UppercaseKeyword('indicator')
+iabbrev <expr> <buffer> initially UppercaseKeyword('initially')
+iabbrev <expr> <buffer> inner UppercaseKeyword('inner')
+iabbrev <expr> <buffer> inout UppercaseKeyword('inout')
+iabbrev <expr> <buffer> input UppercaseKeyword('input')
+iabbrev <expr> <buffer> insensitive UppercaseKeyword('insensitive')
+iabbrev <expr> <buffer> insert UppercaseKeyword('insert')
+iabbrev <expr> <buffer> int UppercaseKeyword('int')
+iabbrev <expr> <buffer> integer UppercaseKeyword('integer')
+iabbrev <expr> <buffer> intersect UppercaseKeyword('intersect')
+iabbrev <expr> <buffer> interval UppercaseKeyword('interval')
+iabbrev <expr> <buffer> into UppercaseKeyword('into')
+iabbrev <expr> <buffer> is UppercaseKeyword('is')
+iabbrev <expr> <buffer> isolation UppercaseKeyword('isolation')
+iabbrev <expr> <buffer> iterate UppercaseKeyword('iterate')
+iabbrev <expr> <buffer> join UppercaseKeyword('join')
+iabbrev <expr> <buffer> key UppercaseKeyword('key')
+iabbrev <expr> <buffer> language UppercaseKeyword('language')
+iabbrev <expr> <buffer> large UppercaseKeyword('large')
+iabbrev <expr> <buffer> last UppercaseKeyword('last')
+iabbrev <expr> <buffer> lateral UppercaseKeyword('lateral')
+iabbrev <expr> <buffer> leading UppercaseKeyword('leading')
+iabbrev <expr> <buffer> leave UppercaseKeyword('leave')
+iabbrev <expr> <buffer> left UppercaseKeyword('left')
+iabbrev <expr> <buffer> level UppercaseKeyword('level')
+iabbrev <expr> <buffer> like UppercaseKeyword('like')
+iabbrev <expr> <buffer> local UppercaseKeyword('local')
+iabbrev <expr> <buffer> localtime UppercaseKeyword('localtime')
+iabbrev <expr> <buffer> localtimestamp UppercaseKeyword('localtimestamp')
+iabbrev <expr> <buffer> locator UppercaseKeyword('locator')
+iabbrev <expr> <buffer> loop UppercaseKeyword('loop')
+iabbrev <expr> <buffer> lower UppercaseKeyword('lower')
+iabbrev <expr> <buffer> map UppercaseKeyword('map')
+iabbrev <expr> <buffer> match UppercaseKeyword('match')
+iabbrev <expr> <buffer> max UppercaseKeyword('max')
+iabbrev <expr> <buffer> member UppercaseKeyword('member')
+iabbrev <expr> <buffer> merge UppercaseKeyword('merge')
+iabbrev <expr> <buffer> method UppercaseKeyword('method')
+iabbrev <expr> <buffer> min UppercaseKeyword('min')
+iabbrev <expr> <buffer> minute UppercaseKeyword('minute')
+iabbrev <expr> <buffer> modifies UppercaseKeyword('modifies')
+iabbrev <expr> <buffer> module UppercaseKeyword('module')
+iabbrev <expr> <buffer> month UppercaseKeyword('month')
+iabbrev <expr> <buffer> multiset UppercaseKeyword('multiset')
+iabbrev <expr> <buffer> names UppercaseKeyword('names')
+iabbrev <expr> <buffer> national UppercaseKeyword('national')
+iabbrev <expr> <buffer> natural UppercaseKeyword('natural')
+iabbrev <expr> <buffer> nchar UppercaseKeyword('nchar')
+iabbrev <expr> <buffer> nclob UppercaseKeyword('nclob')
+iabbrev <expr> <buffer> new UppercaseKeyword('new')
+iabbrev <expr> <buffer> next UppercaseKeyword('next')
+iabbrev <expr> <buffer> no UppercaseKeyword('no')
+iabbrev <expr> <buffer> none UppercaseKeyword('none')
+iabbrev <expr> <buffer> not UppercaseKeyword('not')
+iabbrev <expr> <buffer> null UppercaseKeyword('null')
+iabbrev <expr> <buffer> nullif UppercaseKeyword('nullif')
+iabbrev <expr> <buffer> numeric UppercaseKeyword('numeric')
+iabbrev <expr> <buffer> object UppercaseKeyword('object')
+iabbrev <expr> <buffer> octet_length UppercaseKeyword('octet_length')
+iabbrev <expr> <buffer> of UppercaseKeyword('of')
+iabbrev <expr> <buffer> old UppercaseKeyword('old')
+iabbrev <expr> <buffer> on UppercaseKeyword('on')
+iabbrev <expr> <buffer> only UppercaseKeyword('only')
+iabbrev <expr> <buffer> open UppercaseKeyword('open')
+iabbrev <expr> <buffer> option UppercaseKeyword('option')
+iabbrev <expr> <buffer> or UppercaseKeyword('or')
+iabbrev <expr> <buffer> order UppercaseKeyword('order')
+iabbrev <expr> <buffer> ordinality UppercaseKeyword('ordinality')
+iabbrev <expr> <buffer> out UppercaseKeyword('out')
+iabbrev <expr> <buffer> outer UppercaseKeyword('outer')
+iabbrev <expr> <buffer> output UppercaseKeyword('output')
+iabbrev <expr> <buffer> over UppercaseKeyword('over')
+iabbrev <expr> <buffer> overlaps UppercaseKeyword('overlaps')
+iabbrev <expr> <buffer> pad UppercaseKeyword('pad')
+iabbrev <expr> <buffer> parameter UppercaseKeyword('parameter')
+iabbrev <expr> <buffer> partial UppercaseKeyword('partial')
+iabbrev <expr> <buffer> partition UppercaseKeyword('partition')
+iabbrev <expr> <buffer> path UppercaseKeyword('path')
+iabbrev <expr> <buffer> position UppercaseKeyword('position')
+iabbrev <expr> <buffer> precision UppercaseKeyword('precision')
+iabbrev <expr> <buffer> prepare UppercaseKeyword('prepare')
+iabbrev <expr> <buffer> preserve UppercaseKeyword('preserve')
+iabbrev <expr> <buffer> primary UppercaseKeyword('primary')
+iabbrev <expr> <buffer> prior UppercaseKeyword('prior')
+iabbrev <expr> <buffer> privileges UppercaseKeyword('privileges')
+iabbrev <expr> <buffer> procedure UppercaseKeyword('procedure')
+iabbrev <expr> <buffer> public UppercaseKeyword('public')
+iabbrev <expr> <buffer> range UppercaseKeyword('range')
+iabbrev <expr> <buffer> read UppercaseKeyword('read')
+iabbrev <expr> <buffer> reads UppercaseKeyword('reads')
+iabbrev <expr> <buffer> real UppercaseKeyword('real')
+iabbrev <expr> <buffer> recursive UppercaseKeyword('recursive')
+iabbrev <expr> <buffer> ref UppercaseKeyword('ref')
+iabbrev <expr> <buffer> references UppercaseKeyword('references')
+iabbrev <expr> <buffer> referencing UppercaseKeyword('referencing')
+iabbrev <expr> <buffer> relative UppercaseKeyword('relative')
+iabbrev <expr> <buffer> release UppercaseKeyword('release')
+iabbrev <expr> <buffer> repeat UppercaseKeyword('repeat')
+iabbrev <expr> <buffer> resignal UppercaseKeyword('resignal')
+iabbrev <expr> <buffer> restrict UppercaseKeyword('restrict')
+iabbrev <expr> <buffer> result UppercaseKeyword('result')
+iabbrev <expr> <buffer> return UppercaseKeyword('return')
+iabbrev <expr> <buffer> returns UppercaseKeyword('returns')
+iabbrev <expr> <buffer> revoke UppercaseKeyword('revoke')
+iabbrev <expr> <buffer> right UppercaseKeyword('right')
+iabbrev <expr> <buffer> role UppercaseKeyword('role')
+iabbrev <expr> <buffer> rollback UppercaseKeyword('rollback')
+iabbrev <expr> <buffer> rollup UppercaseKeyword('rollup')
+iabbrev <expr> <buffer> routine UppercaseKeyword('routine')
+iabbrev <expr> <buffer> row UppercaseKeyword('row')
+iabbrev <expr> <buffer> rows UppercaseKeyword('rows')
+iabbrev <expr> <buffer> savepoint UppercaseKeyword('savepoint')
+iabbrev <expr> <buffer> schema UppercaseKeyword('schema')
+iabbrev <expr> <buffer> scope UppercaseKeyword('scope')
+iabbrev <expr> <buffer> scroll UppercaseKeyword('scroll')
+iabbrev <expr> <buffer> search UppercaseKeyword('search')
+iabbrev <expr> <buffer> second UppercaseKeyword('second')
+iabbrev <expr> <buffer> section UppercaseKeyword('section')
+iabbrev <expr> <buffer> select UppercaseKeyword('select')
+iabbrev <expr> <buffer> sensitive UppercaseKeyword('sensitive')
+iabbrev <expr> <buffer> session UppercaseKeyword('session')
+iabbrev <expr> <buffer> session_user UppercaseKeyword('session_user')
+iabbrev <expr> <buffer> set UppercaseKeyword('set')
+iabbrev <expr> <buffer> sets UppercaseKeyword('sets')
+iabbrev <expr> <buffer> signal UppercaseKeyword('signal')
+iabbrev <expr> <buffer> similar UppercaseKeyword('similar')
+iabbrev <expr> <buffer> size UppercaseKeyword('size')
+iabbrev <expr> <buffer> smallint UppercaseKeyword('smallint')
+iabbrev <expr> <buffer> some UppercaseKeyword('some')
+iabbrev <expr> <buffer> space UppercaseKeyword('space')
+iabbrev <expr> <buffer> specific UppercaseKeyword('specific')
+iabbrev <expr> <buffer> specifictype UppercaseKeyword('specifictype')
+iabbrev <expr> <buffer> sql UppercaseKeyword('sql')
+iabbrev <expr> <buffer> sqlcode UppercaseKeyword('sqlcode')
+iabbrev <expr> <buffer> sqlerror UppercaseKeyword('sqlerror')
+iabbrev <expr> <buffer> sqlexception UppercaseKeyword('sqlexception')
+iabbrev <expr> <buffer> sqlstate UppercaseKeyword('sqlstate')
+iabbrev <expr> <buffer> sqlwarning UppercaseKeyword('sqlwarning')
+iabbrev <expr> <buffer> start UppercaseKeyword('start')
+iabbrev <expr> <buffer> state UppercaseKeyword('state')
+iabbrev <expr> <buffer> static UppercaseKeyword('static')
+iabbrev <expr> <buffer> submultiset UppercaseKeyword('submultiset')
+iabbrev <expr> <buffer> substring UppercaseKeyword('substring')
+iabbrev <expr> <buffer> sum UppercaseKeyword('sum')
+iabbrev <expr> <buffer> symmetric UppercaseKeyword('symmetric')
+iabbrev <expr> <buffer> system UppercaseKeyword('system')
+iabbrev <expr> <buffer> system_user UppercaseKeyword('system_user')
+iabbrev <expr> <buffer> table UppercaseKeyword('table')
+iabbrev <expr> <buffer> tablesample UppercaseKeyword('tablesample')
+iabbrev <expr> <buffer> temporary UppercaseKeyword('temporary')
+iabbrev <expr> <buffer> then UppercaseKeyword('then')
+iabbrev <expr> <buffer> time UppercaseKeyword('time')
+iabbrev <expr> <buffer> timestamp UppercaseKeyword('timestamp')
+iabbrev <expr> <buffer> timezone_hour UppercaseKeyword('timezone_hour')
+iabbrev <expr> <buffer> timezone_minute UppercaseKeyword('timezone_minute')
+iabbrev <expr> <buffer> to UppercaseKeyword('to')
+iabbrev <expr> <buffer> trailing UppercaseKeyword('trailing')
+iabbrev <expr> <buffer> transaction UppercaseKeyword('transaction')
+iabbrev <expr> <buffer> translate UppercaseKeyword('translate')
+iabbrev <expr> <buffer> translation UppercaseKeyword('translation')
+iabbrev <expr> <buffer> treat UppercaseKeyword('treat')
+iabbrev <expr> <buffer> trigger UppercaseKeyword('trigger')
+iabbrev <expr> <buffer> trim UppercaseKeyword('trim')
+iabbrev <expr> <buffer> true UppercaseKeyword('true')
+iabbrev <expr> <buffer> under UppercaseKeyword('under')
+iabbrev <expr> <buffer> undo UppercaseKeyword('undo')
+iabbrev <expr> <buffer> union UppercaseKeyword('union')
+iabbrev <expr> <buffer> unique UppercaseKeyword('unique')
+iabbrev <expr> <buffer> unknown UppercaseKeyword('unknown')
+iabbrev <expr> <buffer> unnest UppercaseKeyword('unnest')
+iabbrev <expr> <buffer> until UppercaseKeyword('until')
+iabbrev <expr> <buffer> update UppercaseKeyword('update')
+iabbrev <expr> <buffer> upper UppercaseKeyword('upper')
+iabbrev <expr> <buffer> usage UppercaseKeyword('usage')
+iabbrev <expr> <buffer> user UppercaseKeyword('user')
+iabbrev <expr> <buffer> using UppercaseKeyword('using')
+iabbrev <expr> <buffer> value UppercaseKeyword('value')
+iabbrev <expr> <buffer> values UppercaseKeyword('values')
+iabbrev <expr> <buffer> varchar UppercaseKeyword('varchar')
+iabbrev <expr> <buffer> varying UppercaseKeyword('varying')
+iabbrev <expr> <buffer> view UppercaseKeyword('view')
+iabbrev <expr> <buffer> when UppercaseKeyword('when')
+iabbrev <expr> <buffer> whenever UppercaseKeyword('whenever')
+iabbrev <expr> <buffer> where UppercaseKeyword('where')
+iabbrev <expr> <buffer> while UppercaseKeyword('while')
+iabbrev <expr> <buffer> window UppercaseKeyword('window')
+iabbrev <expr> <buffer> with UppercaseKeyword('with')
+iabbrev <expr> <buffer> within UppercaseKeyword('within')
+iabbrev <expr> <buffer> without UppercaseKeyword('without')
+iabbrev <expr> <buffer> work UppercaseKeyword('work')
+iabbrev <expr> <buffer> write UppercaseKeyword('write')
+iabbrev <expr> <buffer> year UppercaseKeyword('year')
+iabbrev <expr> <buffer> zone UppercaseKeyword('zone')
