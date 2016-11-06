@@ -1,6 +1,6 @@
 function! UppercaseKeyword(sql)
     " Do not uppercase word if within a comment or string
-    if synIDattr(synIDtrans(synID(line("."), col(".") - 1, 0)), "name") =~ 'Comment\|String'
+    if synIDattr(synIDtrans(synID(line("."), col(".") - 1, 0)), "name") =~# 'Comment\|String'
         return a:sql
     else
         return toupper(a:sql)
