@@ -13,3 +13,9 @@ Using [vim-plug](https://github.com/junegunn/vim-plug) (or other similar package
 " put this in your ~/.vimrc, then run :PlugInstall
 Plug 'alcesleo/vim-uppercase-sql'
 ```
+
+## Usage
+
+Install it and forget about it. When you type an SQL keyword in an SQL file, it
+will be automatically uppercased as you type, and it is smart enough to not
+uppercase stuff in comments or strings.
