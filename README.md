@@ -11,7 +11,7 @@ Using [vim-plug](https://github.com/junegunn/vim-plug) (or other similar package
 
 ```vim
 " put this in your ~/.vimrc, then run :PlugInstall
-Plug 'alcesleo/vim-uppercase-sql'
+Plug 'jsborjesson/vim-uppercase-sql'
 ```
 
 ## Usage
